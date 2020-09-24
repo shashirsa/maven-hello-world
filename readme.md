@@ -38,7 +38,7 @@ Running `mvn compile` produces a class file:
 
 Running `mvn package` does a compile and creates the target directory, including a jar:
 
-    murphy:my-app pdurbin$ mvn clean --quiet
+    murphy:my-app pdurbin$ mvn clean --quiet 
     murphy:my-app pdurbin$ mvn package > /dev/null
     murphy:my-app pdurbin$ ack -a -f
     pom.xml
